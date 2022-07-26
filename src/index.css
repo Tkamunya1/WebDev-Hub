@@ -48,3 +48,8 @@
   color: green;
   margin-bottom: 8px;
 }
+.home h1{
+  color: black;
+  font-weight: bolder;
+  size: 3 rem;
+}

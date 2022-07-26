@@ -5,7 +5,7 @@ const Home = () => {
   const [blogs, setBlogs] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:8000/blogs')
+    fetch('https://guarded-waters-84193.herokuapp.com/blogs')
       .then(res => {
         return res.json();
       })
@@ -16,6 +16,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <h1> Web Development Books Under One Roof </h1>
       {blogs && <BlogList blogs={blogs} />}
     </div>
   );
