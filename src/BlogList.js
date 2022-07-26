@@ -4,8 +4,9 @@ const BlogList = ({ blogs }) => {
       {blogs.map(blog => (
         <div className="blog-preview" key={blog.id} >
           <h2>{ blog.title }</h2>
-          <p>Written by { blog.author }</p>
-          <h3>Thumbnail { blog.thumbnail }</h3>
+          <p>Description: { blog.body } </p>
+          <h3>Written by { blog.author }</h3>
+          <h4> Link {blog.image} </h4>
         </div>
       ))}
     </div>

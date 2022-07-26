@@ -5,7 +5,7 @@ const Home = () => {
   const [blogs, setBlogs] = useState(null)
 
   useEffect(() => {
-    fetch('https://guarded-waters-84193.herokuapp.com/blogs')
+    fetch('https://safe-citadel-50910.herokuapp.com/blogs')
       .then(res => {
         return res.json();
       })
