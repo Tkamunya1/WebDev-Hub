@@ -1,11 +1,12 @@
 import { useState } from "react";
-
+import { useHistory } from "react-router-dom";
 
 
 const Post = () => {
     const [title, setTitle ]= useState ("") 
     const [body, setBody ]= useState ("") 
     const [author, setAuthor ]= useState ("") 
+    const his = useHistory()
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -17,6 +18,7 @@ const Post = () => {
           body: JSON.stringify(book)
         }).then(() => {
           console.log('new book added');
+          his.push('/')
         })
       }
 
