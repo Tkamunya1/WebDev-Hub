@@ -58,3 +58,35 @@
   font-weight: bolder;
   size: 3 rem;
 }
+
+/* Post new book form */
+.post-book {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.post-book label {
+  text-align: left;
+  display: block;
+}
+.post-book h1 {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 30px;
+}
+.post-book input, .post-book textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.post-book button {
+  background:green;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
