@@ -1,15 +1,29 @@
 import { useState } from "react";
 
 
+
 const Post = () => {
     const [title, setTitle ]= useState ("") 
     const [body, setBody ]= useState ("") 
     const [author, setAuthor ]= useState ("") 
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const book = { title, body, author };
+    
+        fetch('https://safe-citadel-50910.herokuapp.com/blogs', {
+          method: 'POST',
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(book)
+        }).then(() => {
+          console.log('new book added');
+        })
+      }
+
     return (
         <div className = "post-book">
             <h1> Post a New Book </h1>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label> Book Title </label>
                 <input
                  type="text" 
