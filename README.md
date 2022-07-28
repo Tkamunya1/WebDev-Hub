@@ -8,8 +8,6 @@ You need an internet connection, a mobile device, or a PC to access this app.
 The app is accessible through;
 https://tkamunya1.github.io/ 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 
 ## Usage
 The app is suitable for total beginners, intermediate, and expert web developers who want to learn all the web development skills. 
