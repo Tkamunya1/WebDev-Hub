@@ -49,6 +49,10 @@
   color: green;
   margin-bottom: 8px;
 }
+.blog-preview h3{
+  text-decoration: none;
+}
+
 .home h1{
   color: black;
   font-weight: bolder;
