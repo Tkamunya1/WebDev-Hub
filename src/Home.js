@@ -5,6 +5,7 @@ import useFetch from "./useFetch";
 const Home = () => {
   const { error, isPending, data: blogs } = useFetch('https://safe-citadel-50910.herokuapp.com/blogs')
 
+
   return (
     <div className="home">
       <h1> Web Development Books Under One Roof </h1>

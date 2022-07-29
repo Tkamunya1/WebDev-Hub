@@ -34,22 +34,25 @@
   padding: 20px;
 }
 
-/* blog previews / list */
-.blog-preview {
+/* book previews / list */
+.book-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
-  width: 18 + 'rem';
+  width: 5 + 'rem';
 }
-.blog-preview:hover {
+.book-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
-.blog-preview h2 {
+.book-preview h2 {
   font-size: 20px;
   color: green;
   margin-bottom: 8px;
 }
-.blog-preview h3{
+.book-preview h3{
+  text-decoration: none;
+}
+.book-preview a{
   text-decoration: none;
 }
 
@@ -89,4 +92,7 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.card {
+columns: 3;
 }
