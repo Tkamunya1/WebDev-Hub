@@ -12,7 +12,7 @@ const Post = () => {
         e.preventDefault();
         const book = { title, body, author };
     
-        fetch('https://safe-citadel-50910.herokuapp.com/blogs', {
+        fetch('https://safe-river-01894.herokuapp.com/books', {
           method: 'POST',
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(book)

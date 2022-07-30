@@ -1,9 +1,9 @@
-import BlogList from "./BlogList";
+import BookList from "./BookList";
 import useFetch from "./useFetch";
 
 
 const Home = () => {
-  const { error, isPending, data: blogs } = useFetch('https://safe-citadel-50910.herokuapp.com/blogs')
+  const { error, isPending, data: books } = useFetch('https://safe-river-01894.herokuapp.com/books')
 
 
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <h1> Web Development Books Under One Roof </h1>
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
-      {blogs && <BlogList blogs={blogs} />}
+      {books && <BookList books={books} />}
     </div>
   );
 }
