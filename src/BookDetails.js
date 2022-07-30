@@ -24,7 +24,7 @@ const BookDetails = () => {
 
           <p>Written by { blog.author }</p>
           <div>{ blog.body }</div>
-          {<button> onClick= {handleClick} delete</button> }
+          {/* {<button> onClick= {handleClick} delete</button> } */}
 
         </article>
       )}

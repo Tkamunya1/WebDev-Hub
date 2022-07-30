@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 const BlogList = ({ blogs }) => {
   // let BlogList = blogs.map((blog) => (<BlogList title={blog.title} image={blog.image} Id={blog.id} key={blog.id}/>))
+ 
 
   return (
 <div className="blog-list">
@@ -11,7 +12,7 @@ const BlogList = ({ blogs }) => {
 
           {/* <Link to= { `/blogs/ $ {blog.body}` } >  */}
           <h2>{ blog.title }</h2>
-          {<img src={ blog.image }/>}
+          {<img className="image-preview" src={ blog.image }/>}
           <p>Description: { blog.body }</p>
           <p>Written by { blog.author }</p>
           {/* </Link> */}
