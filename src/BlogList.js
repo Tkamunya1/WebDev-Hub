@@ -1,4 +1,4 @@
-//import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 const BlogList = ({ blogs }) => {
@@ -14,7 +14,9 @@ const BlogList = ({ blogs }) => {
           <h2>{ blog.title }</h2>
           {<img className="image-preview" src={ blog.image } alt=""/>}
           <p>Description: { blog.body }</p>
-          <p>Written by { blog.author }</p>
+          <h5>Written by { blog.author } </h5>
+          <Link to ={"/blog.image"} >Order Book </Link>
+
           {/* </Link> */}
         </div>
       ))}
