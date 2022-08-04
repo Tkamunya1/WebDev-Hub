@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/WebDev-Hub/static/css/main.2ef3b5f2.chunk.css",
-    "main.js": "/WebDev-Hub/static/js/main.027f9c89.chunk.js",
-    "main.js.map": "/WebDev-Hub/static/js/main.027f9c89.chunk.js.map",
+    "main.js": "/WebDev-Hub/static/js/main.33d4cc26.chunk.js",
+    "main.js.map": "/WebDev-Hub/static/js/main.33d4cc26.chunk.js.map",
     "runtime-main.js": "/WebDev-Hub/static/js/runtime-main.850c9a95.js",
     "runtime-main.js.map": "/WebDev-Hub/static/js/runtime-main.850c9a95.js.map",
-    "static/js/2.28d4af47.chunk.js": "/WebDev-Hub/static/js/2.28d4af47.chunk.js",
-    "static/js/2.28d4af47.chunk.js.map": "/WebDev-Hub/static/js/2.28d4af47.chunk.js.map",
+    "static/js/2.a2970b6e.chunk.js": "/WebDev-Hub/static/js/2.a2970b6e.chunk.js",
+    "static/js/2.a2970b6e.chunk.js.map": "/WebDev-Hub/static/js/2.a2970b6e.chunk.js.map",
     "index.html": "/WebDev-Hub/index.html",
     "static/css/main.2ef3b5f2.chunk.css.map": "/WebDev-Hub/static/css/main.2ef3b5f2.chunk.css.map",
-    "static/js/2.28d4af47.chunk.js.LICENSE.txt": "/WebDev-Hub/static/js/2.28d4af47.chunk.js.LICENSE.txt"
+    "static/js/2.a2970b6e.chunk.js.LICENSE.txt": "/WebDev-Hub/static/js/2.a2970b6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.850c9a95.js",
-    "static/js/2.28d4af47.chunk.js",
+    "static/js/2.a2970b6e.chunk.js",
     "static/css/main.2ef3b5f2.chunk.css",
-    "static/js/main.027f9c89.chunk.js"
+    "static/js/main.33d4cc26.chunk.js"
   ]
 }
