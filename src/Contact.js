@@ -42,7 +42,7 @@ function Contact() {
                  onChange={(e) => setEmail(e.target.value)}
                  >
                  </input>
-                 <label> comment</label>
+                 <label> Comment</label>
                 <textarea
                  type="text" 
                  required

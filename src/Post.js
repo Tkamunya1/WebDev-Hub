@@ -6,11 +6,13 @@ const Post = () => {
     const [title, setTitle ]= useState ("") 
     const [body, setBody ]= useState ("") 
     const [author, setAuthor ]= useState ("") 
+    const [url, setUrl ]= useState ("") 
+
     const his = useHistory()
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const book = { title, body, author };
+        const book = { title, url, body, author };
     
         fetch('https://safe-river-01894.herokuapp.com/books', {
           method: 'POST',
@@ -33,6 +35,15 @@ const Post = () => {
                  value={title}
                  onChange={(e) => setTitle(e.target.value)}
                  />
+
+              <label> image-url</label>
+                <input
+                 type="img" 
+                 required
+                 value={url}
+                 onChange={(e) => setUrl(e.target.value)}
+                 />
+                 
                  <label> Book Body  </label>
                  <textarea 
                  required
